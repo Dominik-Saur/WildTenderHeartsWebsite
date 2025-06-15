@@ -5,18 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Holding Space in Times of Transition</title>
   <style>
+    :root {
+      --background-color: #f9f6f1;
+      --text-color: #333;
+      --primary-color: #3f6b64;
+      --secondary-color: #8fb1aa;
+    }
+
     body {
       font-family: 'Georgia', serif;
-      background-color: #f9f6f1;
-      color: #333;
+      background-color: var(--background-color);
+      color: var(--text-color);
       line-height: 1.7;
       padding: 2rem;
+      padding-top: 6rem;
       max-width: 700px;
       margin: 0 auto;
     }
     h1, h2 {
       font-family: 'Palatino Linotype', serif;
-      color: #111;
+      color: var(--primary-color);
     }
     h1 {
       font-size: 2rem;
@@ -56,10 +64,27 @@
       font-size: 0.9rem;
     }
     nav {
-      margin-bottom: 2rem;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;
     }
     nav a {
-      margin-right: 1rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    .hero img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
     }
   </style>
   <script>
@@ -87,10 +112,12 @@
       <a href="#testimonials">Testimonials</a>
       <a href="#contact">Contact</a>
     </nav>
+    <div class="hero"><img src="https://via.placeholder.com/1200x400" alt="Hero image"></div>
     <section id="about">
       <h1>✦ Holding Space in Times of Transition</h1>
     <p><em>A quiet invitation to be with what is</em></p>
 
+    <img src="https://via.placeholder.com/600x200" alt="About image" />
     <blockquote>“We don’t need to be fixed. Sometimes it's enough to have space to feel and be felt without judgement.”</blockquote>
     <blockquote>“I don’t strive for perfection — I strive to show up and embody ‘good enough’ while embracing the potential to grow every day. Letting go of expectations allows me to be a full flesh human again and soften to the joyful messiness of a human experience.”</blockquote>
     <blockquote>“True love is soft around the edges and tough at the core — it doesn’t rescue you from your pain, but stays present with you inside it.”</blockquote>
@@ -115,9 +142,11 @@
 <section id="workshops">
   <h2>Workshops</h2>
   <p>Information about upcoming workshops will be posted here.</p>
+  <img src="https://via.placeholder.com/600x200" alt="Workshops image" />
 </section>
 
 <section id="sessions">
+  <img src="https://via.placeholder.com/600x200" alt="Sessions image" />
 <p>I’m opening a space — human to human — for honest reflection, emotional presence, and gentle witnessing.</p>
 
     <p>If you’re:</p>
@@ -157,6 +186,7 @@
 <section id="testimonials">
   <h2>Testimonials</h2>
   <p>Testimonials will be added soon.</p>
+  <img src="https://via.placeholder.com/600x200" alt="Testimonials image" />
 </section>
 
     <section id="contact" class="contact">
@@ -174,10 +204,12 @@
       <a href="#testimonials">Erfahrungsberichte</a>
       <a href="#contact">Kontakt</a>
     </nav>
+    <div class="hero"><img src="https://via.placeholder.com/1200x400" alt="Hero image"></div>
     <section id="about">
     <h1>✦ Raum halten in Zeiten des Wandels</h1>
     <p><em>Eine stille Einladung, mit dem zu sein, was ist</em></p>
 
+    <img src="https://via.placeholder.com/600x200" alt="About image" />
     <blockquote>„Du musst nicht repariert werden. Du brauchst nur Raum, um gefühlt zu werden.“</blockquote>
     <blockquote>Ich strebe nicht nach Perfektion – ich bemühe mich, präsent zu sein und das „gut genug“ zu verkörpern, während ich das tägliche Wachstum willkommen heiße. Indem ich Erwartungen loslasse, kann ich wieder ein vollständiger Mensch sein – weich werden und mich dem freudigen Chaos menschlicher Erfahrung hingeben.</blockquote>
     <blockquote>„Wahre Liebe ist weich am Rand und stark im Kern – sie rettet dich nicht vor deinem Schmerz, sondern bleibt mit dir darin präsent.“</blockquote>
@@ -201,10 +233,12 @@
 </section>
 <section id="workshops">
   <h2>Workshops</h2>
+  <img src="https://via.placeholder.com/600x200" alt="Workshops image" />
   <p>Informationen zu kommenden Workshops folgen in Kürze.</p>
 </section>
 
 <section id="sessions">
+  <img src="https://via.placeholder.com/600x200" alt="Sessions image" />
 	<p>Ich öffne einen Raum – von Mensch zu Mensch – für ehrliche Reflexion, emotionale Präsenz und achtsames Zeugnis.</p>
 
 	<p>Wenn du dich in einer Phase des Loslassens, der Trauer oder der inneren Wandlung befindest,<br />
@@ -234,6 +268,7 @@
 	<p>Das ist kein Tauschgeschäft. Es ist eine Beziehung. Du bezahlst nicht für meine Zeit – du ehrst die Fürsorge, die wir miteinander teilen.</p>
 <section id="testimonials">
   <h2>Erfahrungsberichte</h2>
+  <img src="https://via.placeholder.com/600x200" alt="Testimonials image" />
   <p>Erfahrungsberichte folgen bald.</p>
 </section>
 
