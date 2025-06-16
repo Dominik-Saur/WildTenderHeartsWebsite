@@ -20,7 +20,7 @@
       color: var(--text-color);
       line-height: 1.7;
       padding: 2rem;
-      padding-top: 6rem;
+      padding-top: 8rem;
       max-width: 700px;
       margin: 0 auto;
     }
@@ -57,9 +57,21 @@
     a:hover {
       text-decoration: underline;
     }
-    nav {
+    .titlebar {
       position: fixed;
       top: 0;
+      left: 0;
+      right: 0;
+      background-color: var(--secondary-color);
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    nav {
+      position: fixed;
+      top: 3.5rem;
       left: 0;
       right: 0;
       background-color: var(--primary-color);
@@ -68,6 +80,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 1rem;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
       z-index: 1000;
@@ -133,6 +146,10 @@
 
 
   <div data-lang="en">
+    <header class="titlebar">
+      <div>Wild Tender Hearts</div>
+      <small>Authentic relational connection</small>
+    </header>
     <nav>
       <a href="#about">About</a>
       <a href="#ethics">Code of Ethics</a>
@@ -231,6 +248,10 @@
     </section>
   </div>
   <div data-lang="de" style="display:none">
+    <header class="titlebar">
+      <div>Wild Tender Hearts</div>
+      <small>Authentische Beziehungsverbundenheit</small>
+    </header>
     <nav>
       <a href="#about">Über mich</a>
       <a href="#ethics">Ethischer Kodex</a>
